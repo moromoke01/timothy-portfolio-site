@@ -139,7 +139,7 @@ function Main_section() {
 
         {/* Project feature */}
         <div id='project' className='mt-2'>
-          <h1 className='text-5xl font-bold text-gray-600 mt-18 mb-6'>
+          <h1 className='text-3xl md:text-5xl font-bold text-gray-600 mt-18 mb-6'>
             FEATURED <br /> <span className='text-gray-300'>PROJECTS</span>
           </h1>
 
@@ -152,7 +152,7 @@ function Main_section() {
 
         {/* Work Experience */}
         <section>
-          <h1 className='text-5xl font-bold text-gray-600 mt-12 mb-6'>
+          <h1 className='text-3xl md:text-5xl font-bold text-gray-600 mt-12 mb-6'>
             WORK <br /> <span className='text-gray-300'>EXPERIENCE</span>
           </h1>
 
@@ -163,7 +163,7 @@ function Main_section() {
 
         {/* Certification Section */}
         <section>
-          <h1 className='text-5xl font-bold text-gray-600 mt-12 mb-6'>
+          <h1 className='text-3xl md:text-5xl font-bold text-gray-600 mt-12 mb-6'>
             PROFESSIONAL <br /> <span className='text-gray-300'>CERTIFICATION</span>
           </h1>
 
@@ -174,7 +174,7 @@ function Main_section() {
 
         {/* Tools */}
         <section>
-          <h1 className='text-5xl font-bold text-gray-300 mt-12 mb-8'>TOOLS </h1>
+          <h1 className='text-3xl md:text-5xl font-bold text-gray-300 mt-12 mb-8'>TOOLS </h1>
 
           <div className='grid md:grid-cols-2 grid-cols-none gap-4'>
             <div className='flex flex-row gap-2 text-md mb-3'>
@@ -211,7 +211,7 @@ function Main_section() {
 
         {/* Booking */} 
         <section id='w-full call justify-center items-center md:justify-start'> 
-          <h1 className='text-5xl font-bold text-gray-300 mt-12 mb-2'>BOOK A CALL </h1> 
+          <h1 className='text-3xl md:text-5xl font-bold text-gray-300 mt-12 mb-2'>BOOK A CALL </h1> 
            <p className='text-gray-600 mb-8'>Let's talk about your project, submit form to get in touch with Timothy.</p> 
            <Booking />
           </section>
