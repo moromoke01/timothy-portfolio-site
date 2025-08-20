@@ -87,8 +87,8 @@ function Main_section() {
      {/* side_section */} 
      <div className="w-full md:h-screen md:max-w-1/3 bg-white p-4 top-0 flex flex-col items-center pb-5 md:justify-center md:pb-15">
 
-       <div className='max-w-full md:fixed'> 
-        <div className="flex justify-center items-center w-full"> 
+       <div className='max-w-full md:sticky  lg:fixed'> 
+        <div className="flex justify-center items-center w-full max-h-screen"> 
           <img src={timImg} alt="tim-Img" className="w-70 bg-white rounded-full" /> 
         </div> 
         
@@ -115,9 +115,15 @@ function Main_section() {
           <h1 className='hidden md:block text-7xl font-bold text-gray-600'>
             PRODUCT <br /> <span className='text-gray-400'>DESIGNER</span>
           </h1>
-          <p className='Bio max-w-120 text-gray-500 text-center md:text-left md:mt-8 text-lg'>
-            I‘m Hammed Timothy, a Product Designer with over six years experience conceptualizing and crafting digital products, helping businesses and non-profits expand their capacity for impact.
-          </p>
+          <p className="Bio text-gray-500 text-base md:text-lg lg:text-xl 
+              text-center md:text-left 
+              max-w-full sm:max-w-lg md:max-w-md lg:max-w-lg 
+              mx-auto md:mx-0 
+              mt-4 md:mt-8 
+              leading-relaxed">
+  I‘m Hammed Timothy, a Product Designer with over six years experience conceptualizing and crafting digital products, helping businesses and non-profits expand their capacity for impact.
+</p>
+
         </div>
 
         <div id='home' className='items-center justify-center md:justify-start mt-8 flex flex-row gap-8 font-bold text-gray-500 text-md md:text-xl md:gap-20'>
