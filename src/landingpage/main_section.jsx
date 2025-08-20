@@ -10,7 +10,7 @@ import photoshop from '../assets/photoshop 1.png'
 import illustrator from '../assets/Frame 36 (1).png'
 import chatgpt from '../assets/chat-gpt 1.png'
 import adobe from '../assets/Frame 36.png'
-import webflow from '../assets/Image 23.png'
+import webflow from '../assets/image 23.png'
 import Booking from './cards/Booking';
 import { BsWhatsapp } from "react-icons/bs";
 import { AiOutlineFacebook } from "react-icons/ai";
